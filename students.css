@@ -1,0 +1,24 @@
+#egg {
+    /* Write your code here */
+
+}
+
+#nest {
+    opacity: 0;
+    position: absolute;
+    right: 20px;
+    top: 470px;
+    z-index: 2;
+}
+
+#wrinkles {
+    opacity: 0;
+    position: absolute;
+    right: 20px;
+    top: 510px;
+    z-index: 5;
+}
+
+#bird{
+    /* Write your code here */
+}

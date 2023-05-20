@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="./engine/style.css" rel="stylesheet" />
+    <link href="students.css" rel="stylesheet" />
+    <title>Pinecone Academy</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navBar">
+            <object class="pineCone"  data="./svg/pineconeLogo.svg"></object>
+            <button class="getStartedBtn" id="getStart" onclick="redirect()">
+                <div class="box">FINISH</div>
+            </button>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2>
+                    Let's Make
+                </h2>
+                <h1>
+                    A WEBSITE TOGETHER
+                </h1>
+                <p>
+                    Thank you for coming to our coding class. Many kids think coding is hard, and they never try it, but you came and created something cool! You should be proud of yourself.
+                </p>
+                <button class="visitUsBtn" type="button" id="visitUs" onclick="start()">START</button>
+            </div>
+
+        </div>
+        <object data="./svg/tree.svg" id="tree"></object>
+
+        <!-- ӨНДӨГ -->
+        <object data="./svg/egg.svg" id="egg"></object>
+        <!-- ҮҮР -->
+        <object data="./svg/nest.svg" id="nest"></object>
+        <!-- ҮҮРИЙГ ХААХ МӨЧИР -->
+        <object data="./svg/wrinkles.svg" id="wrinkles"></object>
+        <!-- ШУВУУ -->
+        <object data="./svg/maskot.svg" id="bird"></object>
+        <!-- НАВЧНУУД ЭХЛЭХ-->
+        <div id="leaves">
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+        </div>
+        <!-- Leaves falls -->
+        <div class="bottomBar">
+            <ul>
+                <!-- Let's move a bird -->
+                <li onclick="">BIRD</li>
+                <!-- Let's move the eggs -->
+                <li onclick="">EGG</li>
+                <!-- Let's make the leaves fall-->
+                <li onclick="">LEAF</li>
+                <!-- Shaking the nest-->
+                <li onclick="shakeNest()">NEST</li>
+            </ul>
+            <div class="social-links">
+                <img src="./svg/facebook.svg">
+                <img src="./svg/instagram.svg">
+                <img src="./svg/linkedin.svg">
+            </div>
+        </div>
+        <div class="indicator"></div>
+        <div class="sign"> © 2023 Created by your kid</div>
+    </div>
+</body>
+<script src="./engine/engine.js"></script>
+<script src="student.js"></script>
+
+</html>

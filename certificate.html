@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href="students.css" rel="stylesheet" />
+    <title>Certificate</title>
+</head>
+<style>
+   body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.column {
+    flex-direction: column;
+}
+    .bluebox
+    {
+        position: absolute;
+        left: 2%;
+        right: 2%;
+        top: 2%;
+        bottom: 2%;
+        background: #FAFAFA;
+        border: 10px solid #1AC74A;
+        box-sizing: border-box;
+    }
+    .bluething1
+    {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    .bluething2
+    {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+
+.col {
+    flex-basis: 90%;
+    position: relative;
+}
+
+.col h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #1AC74A;
+    margin-block-start: 0.8em;
+    margin-block-end: 1em;
+    }
+
+.col h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 10px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #979797;
+}
+
+.col h4 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.8);
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+
+.col p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    color: #303030;
+    margin-block-start: 2em;
+}
+.logo {
+    position: absolute;
+    top: 26px;
+    right: 30px;
+}
+.signature{
+    position: absolute;
+    width: 391px;
+    height: 126px;
+    left: 158px;
+    top: 485px;
+}
+.stamp{
+    position: absolute;
+    width: 231.96px;
+    height: 233.59px;
+    right: 85px;
+    bottom: 50px;
+}
+.name{
+    position: absolute;
+width: 420px;
+height: 68px;
+left: 158px;
+    top: 610px;
+}
+</style>
+
+<body>
+    <div class="container">
+ 
+        <div class="bluebox"></div>
+        <div class="bluething1">
+            <svg 
+                width="421" 
+                height="567" 
+                viewBox="0 0 421 567" 
+                fill="none" >
+            <path 
+                fill-rule="evenodd" 
+                clip-rule="evenodd" 
+                d="M730.483 344.111C697.844 407.242 603.018 427.172 533.341 413.175C465.356 399.518 445.05 307.334 383.972 274.502C334.58 247.953 269.647 274.731 221.698 245.658C161.32 209.051 95.8343 161.06 82.5077 91.7202C69.0789 21.848 110.745 -48.4656 154.366 -104.676C194.557 -156.466 260.983 -173.917 316.143 -209.341C377.649 -248.841 425.155 -336.81 497.275 -324.893C570.934 -312.722 592.492 -215.679 637.638 -156.217C670.337 -113.151 716.769 -77.2733 725.765 -23.9536C734.296 26.6096 683.747 69.7042 684.404 120.978C685.397 198.488 766.082 275.252 730.483 344.111Z" 
+                fill="#1AC74A"/>
+            </svg>
+            <div class="bluething2">
+               <object data="svg/blue-corner-2.svg"></object>
+            </div>
+            <div class="logo">
+                <object data="svg/logo-2.svg"></object>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h3>
+                        Confirmation of Attendance
+                    </h3>
+                    <h1>
+                        This Acknowledges that
+                    </h1>
+                    <p>Future Engineer</p>
+                    <!-- Let us grab a bird's nest -->
+                    <h1>
+                       Your Name
+                    </h1>
+                    <p>
+                        Thank you for coming to our coding class. 
+                        A lot of kids think coding is hard and they never try it but you came and created something cool!
+                        You should be proud of yourself. 
+                    </p>
+                </div>
+            <div class="signature">
+                <object data="svg/signature.svg"></object>
+            </div>
+    </div>
+    <div class="stamp">
+        <object data="svg/stamp.svg"></object>
+    </div>
+    <div class="name">
+        <object data="svg/name.svg"></object>
+    </div>
+</body>
+
+</html>
